@@ -1,0 +1,21 @@
+Full Binary Tree: 
+  1. Every node of the tree has either "0" or "2" children.
+
+
+Complete Binary Tree: 
+  1. All levels are completely filled except the last level.
+  2. The last level has all nodes on left as possible.
+
+
+Perfect Binary Tree:
+  1. All leaf nodes are at the same level
+
+
+Balanced Binary Tree:
+  1. Height of tree should be at max log(nodes);
+  2. or it could be said that for every node -> | height(left_subtree)-height(right_subtree) | <= 1
+
+
+Degenerate Tree:
+  1. Skewed Tree, i.e. having atmost a single child for every node
+  
