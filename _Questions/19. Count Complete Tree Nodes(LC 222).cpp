@@ -1,6 +1,7 @@
 // Problem Link:
 // Leetcode 222. Count Complete Tree Nodes: https://leetcode.com/problems/count-complete-tree-nodes/
 
+// TC => O( (logn)^2 ), SC => O( logn )
     int findLeftHeight(TreeNode* root){
         if(root == NULL) return 0;
         return 1 + findLeftHeight(root->left);
